@@ -14,8 +14,8 @@ public class Prescription {
         this.dose = drug.getStrength() + " " + drug.getUnits();
         this.fillDate = LocalDate.now();
         System.out.println("Medication: " + this.drugName + " " + this.dose +
-         "\nFill date: " + fillDate +
-         "\nWritten date: " + writtenDate);
+         "\nFill date: " + this.fillDate +
+         "\nWritten date: " + this.writtenDate);
     }
     
 }
